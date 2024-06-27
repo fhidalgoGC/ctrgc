@@ -4,8 +4,6 @@ import '/backend/schema/enums/enums.dart';
 import '/backend/schema/structs/index.dart';
 import '/components/base/side_nav/side_nav_widget.dart';
 import '/components/contracts/modal_select_remarks/modal_select_remarks_widget.dart';
-import '/components/people/select_people_bottom/select_people_bottom_widget.dart';
-import '/components/people/select_people_dialog/select_people_dialog_widget.dart';
 import '/flutter_flow/flutter_flow_drop_down.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -58,8 +56,6 @@ class CreatePurchaseContractWMModel
     return null;
   }
 
-  // Stores action output result for [Bottom Sheet - SelectPeopleBottom] action in Button widget.
-  PeopleStruct? peopleSeletedToContract;
   // State field(s) for typeContratDate widget.
   FocusNode? typeContratDateFocusNode;
   TextEditingController? typeContratDateTextController;
